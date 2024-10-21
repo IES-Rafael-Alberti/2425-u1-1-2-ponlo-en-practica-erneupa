@@ -9,26 +9,26 @@ Apoyate en los siguientes recursos para realizar la práctica:
 
 ---
 
-# Título de la Actividad
+# P1.11 Ponlo en práctica.
 
 ## Identificación de la Actividad
-- **ID de la Actividad:** [ID de la actividad]
-- **Módulo:** [Nombre del módulo] (`PROG`, `IS`, `EDES`, etc.)
-- **Unidad de Trabajo:** [Número y nombre de la unidad de trabajo]
-- **Fecha de Creación:** [Fecha de creación]
-- **Fecha de Entrega:** [Fecha de entrega]
+- **ID de la Actividad:** P1.11. Elementos de desarrollo.
+- **Módulo:** EDES
+- **Unidad de Trabajo:** U1 Introducción al desarrollo de software.
+- **Fecha de Creación:** 19/10/2024
+- **Fecha de Entrega:** 21/10/2024
 - **Alumno(s):** 
-  - **Nombre y Apellidos:** [Nombre y Apellidos del alumno o integrantes del grupo]
-  - **Correo electrónico:** [Correo electrónico g.educaand.es]
-  - **Iniciales del Alumno/Grupo:** [Iniciales del alumno o del grupo]
+  - **Nombre y Apellidos:** Aarón Neupaver Montiel
+  - **Correo electrónico:** aneumon2402@g.educaand.es
+  - **Iniciales del Alumno/Grupo:** ANM
 
 ## Descripción de la Actividad
 [Descripción detallada de la actividad, objetivos, y contexto necesario para comprenderla. Explicar en qué consiste la actividad y qué se espera que el alumno desarrolle o implemente.]
 
 ## Instrucciones de Compilación y Ejecución
 1. **Requisitos Previos:**
-   - [Lenguaje de programación y versión]
-   - [Entorno de desarrollo o dependencias necesarias]
+   - [Python, Java y C]
+   - [Visual Studio Code]
 
 2. **Pasos para Compilar el Código:**
    ```bash
@@ -52,6 +52,27 @@ Apoyate en los siguientes recursos para realizar la práctica:
 ### Código Fuente
 [Aquí se incluirá un enlace directo a los archivos de código fuente en el repositorio, por ejemplo, si se está usando GitHub: `src/main.java` o algún enlace directo.]
 
+# 5.1. Criterio de Evaluación 1.a: Relación entre Software y Hardware.
+
+**Pregunta:**
+
+#### 1. Describe cómo el software que has creado se ha relacionado con los componentes físicos del dispositivo (memoria RAM, procesador, periféricos, etc.) durante la ejecución de los tres lenguajes (interpretado, compilado y en máquina virtual).
+
+- **Puntos a incluir:**
+
+   - Cómo se almacenaron los datos en memoria.
+   - Qué hizo el procesador con el código.
+   - Si se interactuó con periféricos, como la pantalla para mostrar la salida
+
+**Python:**
+   En Python, el intérprete traduce el código a instrucciones de máquina a tiempo real, lo que requiere más recursos del procesador. Los datos se almacenan en la memoria RAM según se ejecuta el programa.
+
+**Java:**
+   En Java, ell codigo se compila con bytecode, que se ejecuta en una máquina virtual de Java. La máquina traduce este bytecode a instrucciones de máquina en tiempo de ejecución, gestionando la memoria RAM y la interacción con el procesador y periféricos.
+
+**C:**
+   El código se compila directamente a código máquina, para que el procesador pueda ejecutar las instrucciones. Los datos se almacenan en la memoria RAM de forma estática y el programa puede interactuar con los periféricos a través de funciones del sistema operativo.
+   
 ### Ejemplos de Ejecución
 - **Entrada 1:** Descripción de la entrada y valor de prueba.
 - **Salida Esperada 1:** Explicación de la salida esperada y el resultado de la prueba.
