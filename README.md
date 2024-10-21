@@ -89,6 +89,18 @@ El código se traduce y ejecuta en tiempo de ejecución por el intérprete, sin 
 #### Para el lenguaje que genera código intermedio (Java, C#), explica cómo el código fuente se transformó en código intermedio (bytecode) y cómo este fue ejecutado por la máquina virtual.
 
 Se transforman en bytecode mediante un compilador, y después es ejecutado por la máquina virtual, que lo traduce a instrucciones de máquina específicas para la plataforma en tiempo de ejecución, permitiendo la independencia del hardware.
+
+# 5.3. Criterio de Evaluación 1.d: Generación de código Intermedio para Máquinas Virtuales.
+
+**Preguntas:**
+
+#### Describe el proceso de generación de código intermedio (bytecode) en el lenguaje que utilizaste que emplea una máquina virtual (por ejemplo, Java o C#).
+
+El proceso de bytecode involucra la escritura del código fuente, su compilación a través de javac, la creación del archivo bienvenida.class que contiene bytecode, y su ejecución, que traduce el bytecode a código máquina en tiempo real.
+
+#### Explica qué rol juega la máquina virtual en la ejecución del código y cómo difiere de la ejecución directa en un sistema operativo como ocurre con los lenguajes compilados e interpretados.
+
+La máquina virtual ejecuta el bytecode traduciendo las instrucciones a código nativo en tiempo de ejecución, gestionando recursos y optimizando el rendimiento, al contrario que los compilados, ya que generan ejecutables nativos y los lenguajes interpretados ejecutan el código directamente sin intermediarios.
    
 ### Ejemplos de Ejecución
 - **Entrada 1:** Descripción de la entrada y valor de prueba.
