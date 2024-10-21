@@ -127,6 +127,28 @@ La máquina virtual ejecuta el bytecode traduciendo las instrucciones a código 
 
 **C:**
    Es un lenguaje de bajo nivel e imperativo, lo que le proporciona alta eficiencia al interactuar directamnte con el hardware, ideal para aplicaciones de akto rendimiento.
+
+# 5.5. Criterio de Evaluación 1.f: Evaluación de Herramientas Utilizadas en el Desarrollo.
+
+**Preguntas:**
+
+#### 1. Para cada uno de los tres lenguajes (interpretado, compilado y en máquina virtual), describe las herramientas que utilizaste en el proceso de desarrollo:
+
+   - **Sistema operativo**
+      Sistema operativo de Línux, especialmente un debian.
+   
+   - **Editor de texto o IDE**
+      Visual Studio Code.
+   
+   - **Compilador**
+      En C, he utilizado el comando GCC y para Java, el comando JACAV.
+   
+   - **Depurador**
+      No he utilizado ninguno.
+   
+   - **Sistema de gestión de versiones**
+      He hutilizado el código git para GitHub.
+      Si queremos ver como se encuentran los archivos, meteremos un "git status", si vemos que hay algo sin guardar metemos un "git add ." y luego un "git commit" para luego hacer un "git push".
    
 ### Ejemplos de Ejecución
 - **Entrada 1:** Descripción de la entrada y valor de prueba.
