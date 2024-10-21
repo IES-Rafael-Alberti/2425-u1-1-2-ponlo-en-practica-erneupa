@@ -72,6 +72,23 @@ Apoyate en los siguientes recursos para realizar la práctica:
 
 **C:**
    El código se compila directamente a código máquina, para que el procesador pueda ejecutar las instrucciones. Los datos se almacenan en la memoria RAM de forma estática y el programa puede interactuar con los periféricos a través de funciones del sistema operativo.
+
+# 5.2. Criterio de Evaluación 1.c: Diferenciación ,entre Código Fuente, Código Objeto y Ejecutable.
+
+**Preguntas:**
+
+#### Explica cómo el código fuente que escribiste se transformó en código objeto y ejecutable en el caso de los lenguajes compilados. ¿Generaste archivos intermedios (código objeto)? ¿Qué nombres tomaron estos archivos?
+
+En C, el código fuente se compila en archivos objetos "bienvenida.o", que contienen instrucciones en lenguaje de máquina. Estos archivos se enlazan con bibliotecas para crear un ejecutable final.
+En Java, elcódigo fuente se compila en bytecode "bienvenida.class", que es interpretado y ejecutado por la máquina virtual, en lugar de generar un ejecutable nativo.
+
+#### Para los lenguajes interpretados, describe cómo el código fuente se ejecutó directamente, sin generar archivos de código objeto o ejecutable.
+
+El código se traduce y ejecuta en tiempo de ejecución por el intérprete, sin necesidad de generar archivos intermedios.
+
+#### Para el lenguaje que genera código intermedio (Java, C#), explica cómo el código fuente se transformó en código intermedio (bytecode) y cómo este fue ejecutado por la máquina virtual.
+
+Se transforman en bytecode mediante un compilador, y después es ejecutado por la máquina virtual, que lo traduce a instrucciones de máquina específicas para la plataforma en tiempo de ejecución, permitiendo la independencia del hardware.
    
 ### Ejemplos de Ejecución
 - **Entrada 1:** Descripción de la entrada y valor de prueba.
