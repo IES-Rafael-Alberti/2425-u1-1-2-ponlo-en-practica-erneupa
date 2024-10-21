@@ -101,6 +101,32 @@ El proceso de bytecode involucra la escritura del código fuente, su compilació
 #### Explica qué rol juega la máquina virtual en la ejecución del código y cómo difiere de la ejecución directa en un sistema operativo como ocurre con los lenguajes compilados e interpretados.
 
 La máquina virtual ejecuta el bytecode traduciendo las instrucciones a código nativo en tiempo de ejecución, gestionando recursos y optimizando el rendimiento, al contrario que los compilados, ya que generan ejecutables nativos y los lenguajes interpretados ejecutan el código directamente sin intermediarios.
+
+# 5.4. Criterio de Evaluación 1.e: Clasificación de Lenguajes de Programación.
+
+**Preguntas:**
+
+#### 1. Clasifica los tres lenguajes utilizados (interpretado, compilado y en máquina virtual) según su:
+
+   - **Modo de ejecución** (interpretando vs compilado vs máquina virtual).
+      Python es interpretado, Java se reconoce por ser máquina virtual y C compilado.
+   
+   - **Nivel de abstracción** (alto vs bajo nivel).
+      Python es de alto nivel, Java de alto nivel y C bajo nivel.
+
+   - **Paradigma de programación** (imperativo, orientado a objetos, funcional).
+      Python es multiparadigma, Java es orientado a objetos y C es imperativo.
+   
+#### 2. Explica qué características de estos lenguajes influyeron en su clasificación
+
+**Python:**
+   Las diferencias en las que se ejecutan el código, junto con su rendimiento, portabilidad y manejo de recursos, son fundamentales para entender cómo se clasifican los lenguajes de programación.
+
+**Java:**
+   Java es un lenguaje orientado a objetos que destaca por su portabilidad gracias a la máquina virtual de Java y su facilidad de uso, lo que lo hace popular para diversas aplicaciones.
+
+**C:**
+   Es un lenguaje de bajo nivel e imperativo, lo que le proporciona alta eficiencia al interactuar directamnte con el hardware, ideal para aplicaciones de akto rendimiento.
    
 ### Ejemplos de Ejecución
 - **Entrada 1:** Descripción de la entrada y valor de prueba.
