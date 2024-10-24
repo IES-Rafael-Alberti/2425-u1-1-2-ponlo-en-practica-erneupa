@@ -1,8 +1,7 @@
-#Entrada
-nombre = input('Escribe tu nombre: ')
 
-#Procesamiento
-terminado = 'Hola!! ' + nombre + '. Este programa está hecho en el lenguaje de programación: Python'
+# Le pedimos al usuario que escriba por pantalla su nombre y nosotros le respondemos con "hola" y su nombre.
 
-#Salida
-print(terminado)
+
+Nombre = input("Dime tu nombre:\n--->")
+
+print( "Hola",  Nombre, "Este programa está hecho en el lenguaje de programación: Python" )
